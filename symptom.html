@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Symptom Input Form</title>
+  <link rel="stylesheet" href="symptom.css">
+</head>
+<body>
+  <div class="container">
+  <nav>
+    <div class="nav__logo">MEDICAL</div>
+    <ul class="nav__links">
+      <li class="link"><a href="index.html">Home</a></li>
+      <li class="link"><a href="about.html">About Us</a></li>
+      <li class="link"><a href="login.html">Login</a></li>
+      <li class="link"><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+<div class="symptom-form">
+  <h2>Symptom Input Form</h2>
+  <form id="symptomForm">
+    <label for="symptom">Select Symptom:</label>
+    <select id="symptom" name="symptom">
+      <option value="value">-Select an option-</option>
+      <option value="value">Fever</option>
+      <option value="value">Cough</option>
+      <option value="value">Headache</option>
+      <option value="value">Fatigue</option>
+      <option value="value">Asthma</option>
+      <option value="value">Cold</option>
+      <option value="value">Muscle Pain</option>
+      <option value="value">Joint Pain</option>
+      <option value="value">Acidity</option>
+      <option value="value">Menstrual Pain</option>
+      <option value="value">Dizziness</option>
+      <option value="value">Sore Throat</option>
+      
+    </select>
+
+    <button type="submit">Submit</button>
+  </form>
+  <div id="recommendation"></div>
+</div>
+</div>
+<script src="recommendation.js"></script>
+</body>
+</html>
